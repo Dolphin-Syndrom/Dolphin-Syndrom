@@ -1,4 +1,4 @@
-
+<img src="https://github.com/Dolphin-Syndrom/f22-raptor/blob/main/raptor.svg" alt="My SVG Image" width="300" height="200">
 
 <svg width="495" height="342" viewBox="0 0 495 342" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="70" y="178" width="15" height="25" fill="black"/>
