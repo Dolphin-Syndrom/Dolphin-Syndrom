@@ -22,4 +22,4 @@
 </a>
 </p>
 <!--Language & Tools status-->
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dolphin-syndrom&show_icons=true&locale=en&layout=compact" alt="dolphin-syndrom" /></p>
+<!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=dolphin-syndrom&show_icons=true&locale=en&layout=compact" alt="dolphin-syndrom" /></p> -->
