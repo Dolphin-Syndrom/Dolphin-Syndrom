@@ -830,11 +830,11 @@
     <text x="340.0" y="164"><tspan class="label">Frameworks: </tspan><tspan fill="#c9d1d9">FastAPI, Django, Nextjs</tspan></text>
     <text x="340.0" y="181"><tspan class="label">IDE: </tspan><tspan fill="#c9d1d9">VsCode, Antigravity, Neovim</tspan></text>
     <text x="340.0" y="215"><tspan class="label">Packages: </tspan><tspan fill="#c9d1d9">42 open repositories</tspan></text>
-    <text x="340.0" y="232"><tspan class="label">Commits: </tspan><tspan fill="#c9d1d9">403</tspan></text>
+    <text x="340.0" y="232"><tspan class="label">Commits: </tspan><tspan fill="#c9d1d9">405</tspan></text>
     <text x="340.0" y="249"><tspan class="label">Stars: </tspan><tspan fill="#c9d1d9">23</tspan></text>
     <text x="340.0" y="266"><tspan class="label">Followers: </tspan><tspan fill="#c9d1d9">14</tspan></text>
-    <text x="340.0" y="283"><tspan class="label">Contributions: </tspan><tspan fill="#c9d1d9">429</tspan></text>
-    <text x="340.0" y="300"><tspan class="label">Lines of code: </tspan><tspan fill="#c9d1d9">0</tspan><tspan fill="#8b949e"> (</tspan><tspan fill="#3fb950">0++</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#f85149">0--</tspan><tspan fill="#8b949e">)</tspan></text>
+    <text x="340.0" y="283"><tspan class="label">Contributions: </tspan><tspan fill="#c9d1d9">431</tspan></text>
+    <text x="340.0" y="300"><tspan class="label">Lines of code: </tspan><tspan fill="#c9d1d9">1.6M</tspan><tspan fill="#8b949e"> (</tspan><tspan fill="#3fb950">1.5M++</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#f85149">46.0K--</tspan><tspan fill="#8b949e">)</tspan></text>
     <text x="340.0" y="334"><tspan class="label">Shell: </tspan><tspan fill="#c9d1d9">zsh</tspan></text>
     <text x="340.0" y="351"><tspan class="label">Aircraft: </tspan><tspan fill="#c9d1d9">B2, F14, F22, SU57</tspan></text>
   </g>
