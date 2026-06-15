@@ -112,16 +112,23 @@ def fetch_loc_stats(username, token, cache_file):
     if not token:
         return cache.get("total", 0), cache.get("additions", 0), cache.get("deletions", 0)
 
-    headers = {"Authorization": f"token {token}"}
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github.v3+json"}
     try:
         page, repos = 1, []
         while True:
             r = requests.get(f"https://api.github.com/users/{username}/repos?per_page=100&page={page}&type=owner",
                              headers=headers, timeout=30)
-            if r.status_code != 200 or not r.json():
+            if r.status_code != 200:
+                print(f"WARN: Fetch repos failed with {r.status_code}")
+                break
+            if not r.json():
                 break
             repos.extend(r.json())
             page += 1
+            
+        if not repos and page == 1:
+            print("WARN: No repos fetched, returning cached LOC")
+            return cache.get("total", 0), cache.get("additions", 0), cache.get("deletions", 0)
 
         repo_cache = cache.get("repos", {})
         total_add = total_del = 0
