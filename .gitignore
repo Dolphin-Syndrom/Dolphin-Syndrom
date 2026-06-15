@@ -1,0 +1,11 @@
+# Cache files (auto-generated, committed by CI)
+# .loc-cache.json
+# .stats-cache.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
