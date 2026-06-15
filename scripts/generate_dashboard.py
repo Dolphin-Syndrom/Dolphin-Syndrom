@@ -541,8 +541,9 @@ def main():
     config = load_config()
     token = os.environ.get("GITHUB_TOKEN", "")
     username = config["username"]
+    api_user = config.get("github_username", username)
 
-    print(f"[*] Generating dashboard for {username}")
+    print(f"[*] Generating dashboard for {api_user} (display: {username})")
 
     aircraft_list = load_aircraft(config.get("aircraft_dir", "aircraft"))
     if not aircraft_list:
@@ -551,7 +552,7 @@ def main():
     print(f"[*] Loaded {len(aircraft_list)} aircraft: {[a['name'] for a in aircraft_list]}")
 
     # Fetch stats (with fallback to cache)
-    stats = fetch_github_stats(username, token)
+    stats = fetch_github_stats(api_user, token)
     cache_path = ROOT_DIR / ".stats-cache.json"
     if stats:
         print(f"[*] Stats: {stats}")
@@ -562,7 +563,7 @@ def main():
     else:
         stats = {"repos": 0, "stars": 0, "followers": 0, "commits": 0, "contributions": 0}
 
-    loc_stats = fetch_loc_stats(username, token, config.get("loc_cache_file", ".loc-cache.json"))
+    loc_stats = fetch_loc_stats(api_user, token, config.get("loc_cache_file", ".loc-cache.json"))
     print(f"[*] LOC: total={loc_stats[0]}, add={loc_stats[1]}, del={loc_stats[2]}")
 
     for theme in ["dark", "light"]:
