@@ -821,25 +821,25 @@
 
   <!-- Info Panel -->
   <g id="info-panel">
-    <text x="340.0" y="28" class="title">DolphinSyndrom@github</text>
-    <text x="340.0" y="45" class="dim">─────────────────────</text>
+    <text x="340.0" y="28" class="title">Dolphin-Syndrom@github</text>
+    <text x="340.0" y="45" class="dim">──────────────────────</text>
     <text x="340.0" y="79"><tspan class="label">OS: </tspan><tspan fill="#c9d1d9">Manvith Bhandari</tspan></text>
     <text x="340.0" y="96"><tspan class="label">Host: </tspan><tspan fill="#c9d1d9">Earth</tspan></text>
     <text x="340.0" y="113"><tspan class="label">Uptime: </tspan><tspan fill="#c9d1d9">21 years 9 months 30 days</tspan></text>
     <text x="340.0" y="147"><tspan class="label">Languages: </tspan><tspan fill="#c9d1d9">C/C++, Python, Javascript</tspan></text>
     <text x="340.0" y="164"><tspan class="label">Frameworks: </tspan><tspan fill="#c9d1d9">FastAPI, Django, Nextjs</tspan></text>
     <text x="340.0" y="181"><tspan class="label">IDE: </tspan><tspan fill="#c9d1d9">VsCode, Antigravity, Neovim</tspan></text>
-    <text x="340.0" y="215"><tspan class="label">Packages: </tspan><tspan fill="#c9d1d9">0 open repositories</tspan></text>
-    <text x="340.0" y="232"><tspan class="label">Commits: </tspan><tspan fill="#c9d1d9">0</tspan></text>
-    <text x="340.0" y="249"><tspan class="label">Stars: </tspan><tspan fill="#c9d1d9">0</tspan></text>
-    <text x="340.0" y="266"><tspan class="label">Followers: </tspan><tspan fill="#c9d1d9">0</tspan></text>
-    <text x="340.0" y="283"><tspan class="label">Contributions: </tspan><tspan fill="#c9d1d9">0</tspan></text>
+    <text x="340.0" y="215"><tspan class="label">Packages: </tspan><tspan fill="#c9d1d9">42 open repositories</tspan></text>
+    <text x="340.0" y="232"><tspan class="label">Commits: </tspan><tspan fill="#c9d1d9">403</tspan></text>
+    <text x="340.0" y="249"><tspan class="label">Stars: </tspan><tspan fill="#c9d1d9">23</tspan></text>
+    <text x="340.0" y="266"><tspan class="label">Followers: </tspan><tspan fill="#c9d1d9">14</tspan></text>
+    <text x="340.0" y="283"><tspan class="label">Contributions: </tspan><tspan fill="#c9d1d9">429</tspan></text>
     <text x="340.0" y="300"><tspan class="label">Lines of code: </tspan><tspan fill="#c9d1d9">0</tspan><tspan fill="#8b949e"> (</tspan><tspan fill="#3fb950">0++</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#f85149">0--</tspan><tspan fill="#8b949e">)</tspan></text>
     <text x="340.0" y="334"><tspan class="label">Shell: </tspan><tspan fill="#c9d1d9">zsh</tspan></text>
     <text x="340.0" y="351"><tspan class="label">Aircraft: </tspan><tspan fill="#c9d1d9">B2, F14, F22, SU57</tspan></text>
   </g>
 
   <!-- Blinking cursor -->
-  <text x="506.79999999999995" y="28"
+  <text x="514.6" y="28"
         class="title cursor">_</text>
 </svg>
