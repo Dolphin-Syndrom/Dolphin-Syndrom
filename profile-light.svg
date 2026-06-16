@@ -834,7 +834,7 @@
     <text x="340.0" y="249"><tspan class="label">Stars: </tspan><tspan fill="#24292f">23</tspan></text>
     <text x="340.0" y="266"><tspan class="label">Followers: </tspan><tspan fill="#24292f">14</tspan></text>
     <text x="340.0" y="283"><tspan class="label">Contributions: </tspan><tspan fill="#24292f">431</tspan></text>
-    <text x="340.0" y="300"><tspan class="label">Lines of code: </tspan><tspan fill="#24292f">1.6M</tspan><tspan fill="#57606a"> (</tspan><tspan fill="#1a7f37">1.5M++</tspan><tspan fill="#57606a">, </tspan><tspan fill="#cf222e">46.0K--</tspan><tspan fill="#57606a">)</tspan></text>
+    <text x="340.0" y="300"><tspan class="label">Lines of code: </tspan><tspan fill="#24292f">1.6M</tspan><tspan fill="#57606a"> (</tspan><tspan fill="#1a7f37">1.6M++</tspan><tspan fill="#57606a">, </tspan><tspan fill="#cf222e">46.2K--</tspan><tspan fill="#57606a">)</tspan></text>
     <text x="340.0" y="334"><tspan class="label">Shell: </tspan><tspan fill="#24292f">zsh</tspan></text>
     <text x="340.0" y="351"><tspan class="label">Aircraft: </tspan><tspan fill="#24292f">B2, F14, F22, SU57</tspan></text>
   </g>
