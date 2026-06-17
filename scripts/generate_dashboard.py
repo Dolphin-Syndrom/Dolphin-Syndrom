@@ -13,12 +13,12 @@ ROOT_DIR = SCRIPT_DIR.parent
 
 ART_CANVAS_LINES = 22          # vertical slots for art
 ART_CANVAS_COLS = 36           # horizontal character slots
-FONT_SIZE = 13
-LINE_HEIGHT = 17
-CHAR_WIDTH = 7.8               # monospace char width at 13px
+FONT_SIZE = 14
+LINE_HEIGHT = 19
+CHAR_WIDTH = 8.4               # monospace char width at 14px
 
 SVG_W = 835
-SVG_H = 410
+SVG_H = 460
 PAD_TOP = 28
 PAD_LEFT = 18
 RIGHT_START_X = (ART_CANVAS_COLS + 4) * CHAR_WIDTH + PAD_LEFT + 10
@@ -455,7 +455,7 @@ def generate_svg(config, stats, loc_stats, aircraft_list, theme="dark"):
         info.append(
             f'    <text x="{RIGHT_START_X}" y="{y}">'
             f'<tspan class="label">{xml_esc(label)}: </tspan>'
-            f'<tspan fill="{vc}">{xml_esc(str(value))}</tspan></text>'
+            f'<tspan fill="{vc}" class="val">{xml_esc(str(value))}</tspan></text>'
         )
         li += 1
 
@@ -489,12 +489,12 @@ def generate_svg(config, stats, loc_stats, aircraft_list, theme="dark"):
     info.append(
         f'    <text x="{RIGHT_START_X}" y="{y}">'
         f'<tspan class="label">Lines of code: </tspan>'
-        f'<tspan fill="{C["fg"]}">{fmt(loc_total)}</tspan>'
-        f'<tspan fill="{C["dim"]}"> (</tspan>'
-        f'<tspan fill="{C["green"]}">{fmt(loc_add)}++</tspan>'
-        f'<tspan fill="{C["dim"]}">, </tspan>'
-        f'<tspan fill="{C["red"]}">{fmt(loc_del)}--</tspan>'
-        f'<tspan fill="{C["dim"]}">)</tspan></text>'
+        f'<tspan fill="{C["fg"]}" class="val">{fmt(loc_total)}</tspan>'
+        f'<tspan fill="{C["dim"]}" class="val"> (</tspan>'
+        f'<tspan fill="{C["green"]}" class="val">{fmt(loc_add)}++</tspan>'
+        f'<tspan fill="{C["dim"]}" class="val">, </tspan>'
+        f'<tspan fill="{C["red"]}" class="val">{fmt(loc_del)}--</tspan>'
+        f'<tspan fill="{C["dim"]}" class="val">)</tspan></text>'
     )
     li += 1
 
@@ -513,6 +513,7 @@ def generate_svg(config, stats, loc_stats, aircraft_list, theme="dark"):
     .glitch {{ fill: {C["glitch"]}; }}
     .label {{ fill: {C["label"]}; font-weight: bold; }}
     .title {{ fill: {C["title"]}; font-weight: bold; }}
+    .val {{ font-weight: bold; }}
     .dim {{ fill: {C["dim"]}; }}
 {"".join(css_parts)}
   </style>
