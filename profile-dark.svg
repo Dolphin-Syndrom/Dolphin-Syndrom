@@ -825,7 +825,7 @@
     <text x="340.0" y="45" class="dim">──────────────────────</text>
     <text x="340.0" y="79"><tspan class="label">OS: </tspan><tspan fill="#c9d1d9">Manvith Bhandari</tspan></text>
     <text x="340.0" y="96"><tspan class="label">Host: </tspan><tspan fill="#c9d1d9">Earth</tspan></text>
-    <text x="340.0" y="113"><tspan class="label">Uptime: </tspan><tspan fill="#c9d1d9">21 years 10 months 0 days</tspan></text>
+    <text x="340.0" y="113"><tspan class="label">Uptime: </tspan><tspan fill="#c9d1d9">21 years 10 months 1 days</tspan></text>
     <text x="340.0" y="147"><tspan class="label">Languages: </tspan><tspan fill="#c9d1d9">C/C++, Python, Javascript</tspan></text>
     <text x="340.0" y="164"><tspan class="label">Frameworks: </tspan><tspan fill="#c9d1d9">FastAPI, Django, Nextjs</tspan></text>
     <text x="340.0" y="181"><tspan class="label">IDE: </tspan><tspan fill="#c9d1d9">VsCode, Antigravity, Neovim</tspan></text>
