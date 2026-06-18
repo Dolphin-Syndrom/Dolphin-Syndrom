@@ -1618,13 +1618,13 @@
     <text x="364.0" y="47" class="dim">──────────────────────</text>
     <text x="364.0" y="85"><tspan class="label">OS: </tspan><tspan fill="#24292f" class="val">Manvith Bhandari</tspan></text>
     <text x="364.0" y="104"><tspan class="label">Host: </tspan><tspan fill="#24292f" class="val">Earth</tspan></text>
-    <text x="364.0" y="123"><tspan class="label">Uptime: </tspan><tspan fill="#24292f" class="val">21 years 10 months 1 days</tspan></text>
+    <text x="364.0" y="123"><tspan class="label">Uptime: </tspan><tspan fill="#24292f" class="val">21 years 10 months 2 days</tspan></text>
     <text x="364.0" y="161"><tspan class="label">Languages: </tspan><tspan fill="#24292f" class="val">C/C++, Python, Javascript</tspan></text>
     <text x="364.0" y="180"><tspan class="label">Frameworks: </tspan><tspan fill="#24292f" class="val">FastAPI, Django, Nextjs</tspan></text>
     <text x="364.0" y="199"><tspan class="label">IDE: </tspan><tspan fill="#24292f" class="val">VsCode, Antigravity, Neovim</tspan></text>
     <text x="364.0" y="237"><tspan class="label">Packages: </tspan><tspan fill="#24292f" class="val">42 open repositories</tspan></text>
     <text x="364.0" y="256"><tspan class="label">Commits: </tspan><tspan fill="#24292f" class="val">409</tspan></text>
-    <text x="364.0" y="275"><tspan class="label">Stars: </tspan><tspan fill="#24292f" class="val">23</tspan></text>
+    <text x="364.0" y="275"><tspan class="label">Stars: </tspan><tspan fill="#24292f" class="val">24</tspan></text>
     <text x="364.0" y="294"><tspan class="label">Followers: </tspan><tspan fill="#24292f" class="val">14</tspan></text>
     <text x="364.0" y="313"><tspan class="label">Contributions: </tspan><tspan fill="#24292f" class="val">435</tspan></text>
     <text x="364.0" y="332"><tspan class="label">Lines of code: </tspan><tspan fill="#24292f" class="val">1.6M</tspan><tspan fill="#57606a" class="val"> (</tspan><tspan fill="#1a7f37" class="val">1.6M++</tspan><tspan fill="#57606a" class="val">, </tspan><tspan fill="#cf222e" class="val">46.2K--</tspan><tspan fill="#57606a" class="val">)</tspan></text>
